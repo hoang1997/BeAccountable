@@ -1,11 +1,44 @@
 .navBar {
-    height: 55px;
+    padding: 0 10% 0 10%;
     border-width:2px;
     border-style:solid;
     border-color: black;
     background-color: white;
+    justify-content: space-between;
+    display: flex;
 }
+
+.titleSection {
+    width: 40%;
+}
+
+.title {
+    
+}
+
+
 
 .profileSection {
     align-self:flex-end;
+    padding: 5px;
+}
+
+.notification {
+
+}
+
+.profile {
+    border-color: black;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.profileName {
+    height: 5px;
+    justify-self: center;
 }

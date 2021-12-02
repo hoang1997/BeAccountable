@@ -3,9 +3,9 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
   return (
     <>
-     <div className="container">
+     <div className="container" style={{height: "85vh"}}>
         <div className="row">
-          <div className="col-md ">
+          <div className="col-md">
             One of three columns
           </div>
           <div className="col-md">
