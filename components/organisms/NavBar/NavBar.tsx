@@ -7,7 +7,7 @@ const NavBar: FC = ({children}) => {
     <div className={styles.navBar}>
         <div className={styles.titleSection}>
           <h2 className={styles.title}>
-            BeAccountable
+            progressed
           </h2>
         </div>
         <div id="profileSection" className={styles.profileSection}>
