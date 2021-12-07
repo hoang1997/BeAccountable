@@ -19,3 +19,9 @@ a {
   justify-content: center;
   align-content: center;
 }
+
+.outlined {
+  border-color: black;
+  border-width: 1;
+  border-style: solid;
+}
