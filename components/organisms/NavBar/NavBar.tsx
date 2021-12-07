@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import Dropdown from '../../atoms/Dropdown/Dropdown'
 import styles from "./NavBar.module.css"
-
+import { FiBell } from "react-icons/fi";
 const NavBar: FC = ({children}) => {
   return (
     <div className={styles.navBar}>
@@ -11,10 +11,10 @@ const NavBar: FC = ({children}) => {
           </h2>
         </div>
         <div id="profileSection" className={styles.profileSection}>
-          <div id="notification">
-          </div>
-          <div className={styles.profile}>
-            <span className={styles.profileName}>JH</span>
+          <div id="accountLinkContainer">
+            <button type="button" className="btn btn-light">
+              My Account
+            </button>
           </div>
         </div>
     </div>
