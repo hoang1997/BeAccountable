@@ -1,0 +1,57 @@
+
+.itemcontainer {
+    border: solid 1px #f5f5f5 ;
+    border-radius: 10px 10px;
+}
+
+.item {
+    padding: 5px 10px;
+    border-radius: 10px 10px;
+    opacity: 0.5;
+}
+
+
+
+.item:hover {
+    color: firebrick;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.item:hover{
+    background: #f5f5f5; /* make this whatever you want */
+}
+
+.selected {
+    color: firebrick;
+    padding: 5px 10px;
+    border-radius: 10px 10px;
+}
+
+.selected a {
+    color: firebrick;
+    text-decoration: none;
+    font-weight: 10px;
+}
+
+.selected{
+    background: #f5f5f5; /* make this whatever you want */
+}
+
+.displaytitle {
+    font-size: 25px;
+}
+
+.displayarrowitem {
+    padding: 5px 10px;
+    border-radius: 10px 10px;
+    opacity: 0.5;
+}
+
+.displayarrowitem:hover a{
+    font-weight: bold;
+}
+
+.displayarrows {
+    font-size: 20px;
+}

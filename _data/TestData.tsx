@@ -4,7 +4,9 @@ import * as Enums from '../lib/enums';
 export const Profile : Interfaces.IProfile = {
     id: 0,
     name: "Joseph Hoang", 
-    followers: 1, following: 10, 
+    followers: 1, 
+    following: 10, 
+    posts: [1],
     height: "160cm", 
     weight: "100kg", 
     bmi: "100 (good)",
@@ -44,11 +46,11 @@ export const Posts : Array<Interfaces.IPost> = [
         date_time: "Today at 14:00",
         location: "The gym, Cambridge",
         title: "Afternoon Workout",
-        media_src: {
+        media_src: null/* {
             id: 0,
             type: Enums.MediaSrcType.Image,
             url: "/images/breon.jpg"
-        }, 
+        }*/, 
         workout: {
             id: 0, 
             type: "Push",

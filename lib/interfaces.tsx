@@ -5,6 +5,7 @@ export interface IProfile  {
     name: string;
     following: number
     followers: number;
+    posts: Array<number>;
     height: string;
     weight: string;
     bmi: string;
@@ -43,4 +44,10 @@ export interface IPost {
     media_src: IMediaSrc | null
     workout: IWorkout
 
+}
+
+export type ItemObject = {
+    id: string, 
+    title: string,
+    display_title: string
 }

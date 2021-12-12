@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import ProfileOverviewSection from '../components/organisms/ProfileOverview/ProfileOverview'
 import FeedSection  from '../components/organisms/Feed/Feed';
-import * as TesData from '../_data/TestData';
+import * as TestData from '../_data/TestData';
 
 
 const Home: NextPage = () => {
@@ -10,8 +10,7 @@ const Home: NextPage = () => {
     <>
      <div className="container">
         <div className="row w-100 h-100">
-          <ProfileOverviewSection profile={TesData.Profile}/>
-          <FeedSection posts={TesData.Posts}/>
+         Login Page, once logged in redirect to account page
         </div>
       </div>
     </>
