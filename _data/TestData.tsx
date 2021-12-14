@@ -67,3 +67,189 @@ export const Posts : Array<Interfaces.IPost> = [
         }
     }
 ] 
+
+
+export const WorkoutPlan : Interfaces.IWorkoutPlan= {
+    title: "",
+    description: "",
+    details: {
+        focus: "",
+        duration: 12,
+        workouts_per_Week: "5-6",
+        diary:  [
+            {
+                week: 1,
+                workouts:  [
+                    {
+                        day: 1,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Barbell squat",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Deadlift",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", null],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            }
+                        ]
+                    },
+                    {
+                        day: 2,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                        ]
+                    },
+                    {
+                        day: 3,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Barbell squat",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                        ]
+                    },
+                ]
+            },
+            {
+                week: 2,
+                workouts:  [
+                    {
+                        day: 1,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Barbell squat",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Deadlift",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", null],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                week: 3,
+                workouts:  [
+                    {
+                        day: 1,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Barbell squat",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Deadlift",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", null],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                week: 4,
+                workouts:  [
+                    {
+                        day: 1,
+                        workout: [
+                            {
+                                exercise: "Lunges",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Barbell squat",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", ""],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            },
+                            {
+                                exercise: "Deadlift",
+                                warmup_set: ["20","20","20"],
+                                working_set: ["40","65","100", null],
+                                rpe: 10,
+                                rpm: "",
+                                notes: "",
+                            }
+                        ]
+                    },
+                ]
+            }
+        ]
+    },
+    upvotes: 20,
+    created: "12/11/2021",
+
+}

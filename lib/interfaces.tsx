@@ -24,7 +24,7 @@ export interface IMediaSrc {
     url: string;
 }
 
-export interface IWorkout {
+export interface IWorkoutSummary {
     id: number;
     type: string;
     time: string;
@@ -42,7 +42,7 @@ export interface IPost {
     location: string;
     title: string;
     media_src: IMediaSrc | null
-    workout: IWorkout
+    workout: IWorkoutSummary
 
 }
 
@@ -50,4 +50,38 @@ export type ItemObject = {
     id: string, 
     title: string,
     display_title: string
+}
+
+export interface IWorkout {
+    exercise: string,
+    warmup_set: Array<string | null>,
+    working_set: Array<string | null>,
+    rpe: number,
+    rpm: string,
+    notes: string,
+}
+
+export interface IWorkoutDiaryDay {
+    day: number,
+    workout: Array<IWorkout>
+}
+
+export interface IWorkoutDiaryWeek {
+    week: number,
+    workouts:  Array<IWorkoutDiaryDay>
+}
+
+export interface IWorkoutPlanDetails  {
+    focus: string,
+    duration: number,
+    workouts_per_Week: string
+    diary: Array<IWorkoutDiaryWeek>
+}
+
+export interface IWorkoutPlan {
+    title: string,
+    description: string,
+    details: IWorkoutPlanDetails,
+    created: string,
+    upvotes: number,
 }

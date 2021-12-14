@@ -7,7 +7,7 @@ import * as TestData from '../../_data/TestData';
 
 
 
-const Feed: FC = () => {
+const FeedPage: FC = () => {
   return (
     <>
      <Container>
@@ -24,4 +24,4 @@ const Feed: FC = () => {
   )
 }
 
-export default Feed
+export default FeedPage
